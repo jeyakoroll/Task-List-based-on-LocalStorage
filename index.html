@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Task List</title>
+	<link rel="shortcut icon" href="public/icons/favicon.ico" type="image/x-icon">
+	<!-- CEO -->
+	<meta name="description" content="template">
+	<meta name="keywords" content="template">
+	<meta name="name" content="Korolenko Evgeny">
+	<!-- CSS -->
+	<link rel="stylesheet" href="public/css/normalize.css">
+	<link rel="stylesheet" href="public/css/fonts.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+	<!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+	 crossorigin="anonymous">
+	<!-- <link rel="stylesheet" href="public/css/all.min.css"> -->
+</head>
+
+<body class="body">
+	<main class="main">
+		<header class="header">
+			<div class="container">
+				<div class="row">
+					<div class="col s12">
+						<div id="main" class="card">
+							<div class="card-content">
+								<span class="card-title">Task List</span>
+								<div class="row">
+									<form id="task-form">
+										<div class="input-field col s12">
+											<input type="text" name="task" id="task">
+											<label for="task">New Task</label>
+										</div>
+										<input type="submit" value="Add Task" class="btn">
+									</form>
+								</div>
+							</div>
+							<div class="card-action">
+								<h5 id="task-title">Tasks</h5>
+								<div class="input-field col s12">
+									<input type="text" name="filter" id="filter">
+									<label for="filter">Filter Tasks</label>
+								</div>
+								<ul class="collection"></ul>
+								<a href="#" class="clear-tasks btn black">Clear Tasks</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- FOR STICKY FOOTER -->
+		<div class="empty "></div>
+	</main>
+	<!-- SITE FOOTER -->
+	<footer class="footer ">
+
+	</footer>
+	<!-- JS -->
+	<script src="public/js/jquery.min.js "></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js "></script>
+	<script src="public/js/main.min.js "></script>
+</body>
+
+</html>
